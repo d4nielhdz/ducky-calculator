@@ -11,6 +11,7 @@ def main():
         fn.resta,
         fn.raices,
         fn.integral_definida,
+        fn.multiplicacion
     )
     print('Ducky v1.0')
     while(True):
@@ -21,7 +22,7 @@ def main():
                 nombre=funcion.__name__,
                 descripcion=funcion.__doc__.split('\n')[0]
             ))
-        choice = int(input("Elgie una función a utilizar: "))
+        choice = int(input("Elige una función a utilizar: "))
         if choice == 0:
             break
         funcion = funciones[choice-1]
