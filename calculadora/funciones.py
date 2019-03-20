@@ -17,14 +17,14 @@ def suma(a, b):
 
 
 def resta(a, b):
-    """Suma dos números
+    """Resta dos números
 
     Args:
         a (Numero): Numero a la izquierda del operador
         b (Numero): Numero a la derecha del operador
 
     Returns:
-        Numero: El resultado de la suma
+        Numero: El resultado de la resta
     """
 
     return a - b
