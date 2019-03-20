@@ -23,7 +23,7 @@ def main():
                 nombre=funcion.__name__,
                 descripcion=funcion.__doc__.split('\n')[0]
             ))
-        choice = int(input("Elige una función a utilizar: "))
+        choice = int(input("Elgie una función a utilizar: "))
         if choice == 0:
             break
         funcion = funciones[choice-1]

@@ -82,4 +82,7 @@ def division(a, b):
     Returns:
         a / b: el cociente de a y b
     """
+    if b == 0:
+        print("El denominador no puede ser cero")
+        return
     return a / b
