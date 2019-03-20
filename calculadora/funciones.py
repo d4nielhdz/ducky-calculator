@@ -70,3 +70,16 @@ def multiplicacion(a, b):
         a * b: el producto de a y b
     """
     return a * b
+
+def division(a, b):
+    """
+    Divide dos números y regresa el resultado
+
+    Args:
+        a (número)    
+        b (número)
+    
+    Returns:
+        a / b: el cociente de a y b
+    """
+    return a / b
